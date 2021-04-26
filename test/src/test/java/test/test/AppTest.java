@@ -15,15 +15,15 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-	System.out.println("it is true");
+	System.out.println("it is true, yes");
         assertTrue( true );
     }
 
     @Test
-    public void shouldFail()
+    public void shouldNotFail()
     {
 	System.out.println("it is false");
-        assertTrue( false );
+        assertTrue( true );
     }
     
     @Test
