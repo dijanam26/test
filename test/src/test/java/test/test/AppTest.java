@@ -25,5 +25,12 @@ public class AppTest
 	System.out.println("it is false");
         assertTrue( false );
     }
+    
+    @Test
+    public void shouldBla()
+    {
+	System.out.println("blaaa");
+        assertTrue( true );
+    }
 
 }
